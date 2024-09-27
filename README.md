@@ -28,10 +28,10 @@ The script prompts the user for input such as stock ticker, start date, investme
 
 # Potential Improvements:
 
-- Error Handling: The script currently has minimal error handling, particularly for user input, data retrieval, and missing financial metrics. Adding try-except blocks would enhance robustness.
-- Dynamic Shares Outstanding: The EPS calculation assumes 1,000,000 shares outstanding. It would be better to fetch this value dynamically if available.
-- Performance: Running Monte Carlo simulations with thousands of iterations can be computationally expensive. Consider optimizing or offering a lower default for simulations.
-- Documentation: Adding more inline comments, especially around complex sections like the Monte Carlo simulation, would improve code readability and maintainability.
+-Error Handling: The script currently has minimal error handling, particularly for user input, data retrieval, and missing financial metrics. Adding try-except blocks would enhance robustness.
+-Dynamic Shares Outstanding (Implemented): The EPS calculation now dynamically fetches the actual number of shares outstanding from Yahoo Finance. If this information is unavailable, it defaults to 1,000,000 shares, ensuring a more accurate EPS calculation. Further improvements could include  better error handling if shares outstanding are missing.
+-Performance: Running Monte Carlo simulations with thousands of iterations can be computationally expensive. Consider optimizing or offering a lower default for simulations.
+-Documentation: Adding more inline comments, especially around complex sections like the Monte Carlo simulation, would improve code readability and maintainability.
 
 # Example:
 
