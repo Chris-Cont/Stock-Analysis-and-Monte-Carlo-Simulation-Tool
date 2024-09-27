@@ -36,9 +36,13 @@ The script prompts the user for input such as stock ticker, start date, investme
 # Example:
 
 Enter the ticker symbol (e.g., AAPL): AAPL 
+
 Enter the start date (mm/dd/yyyy): 01/01/2020 
+
 Enter the investment amount (e.g., 10000): 10000 
+
 Enter the number of time intervals (days) for Monte Carlo simulation: 250 
+
 Enter the number of simulations for Monte Carlo simulation: 10000 
 
 # Contact:
